@@ -9,10 +9,27 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,972</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">57,058</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">food.LaunchDominos_Test</td><td><a href="#m0">dominos</a></td><td rowspan="1">1716458222695</td><td rowspan="1">11946</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">food.LaunchDominos_Test</td><td><a href="#m0">dominos</a></td><td rowspan="1">1717415476893</td><td rowspan="1">4801</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">beauty.LaunchLoreal_Test</td><td><a href="#m1">loreal</a></td><td rowspan="1">1717415440877</td><td rowspan="1">7750</td></tr><tr class="passedodd"><td rowspan="1">beauty.LaunchNykaa_Test</td><td><a href="#m2">nykaa</a></td><td rowspan="1">1717415448627</td><td rowspan="1">3816</td></tr><tr class="passedeven"><td rowspan="1">beauty.LaunchSugar_Test</td><td><a href="#m3">sugar</a></td><td rowspan="1">1717415452444</td><td rowspan="1">5633</td></tr><tr class="passedodd"><td rowspan="1">ecom.DemoWebShop3_Test</td><td><a href="#m4">books</a></td><td rowspan="1">1717415458077</td><td rowspan="1">6748</td></tr><tr class="passedeven"><td rowspan="1">ecom.LaunchDemoWebShop_Test</td><td><a href="#m5">demoWebShop</a></td><td rowspan="1">1717415464827</td><td rowspan="1">5733</td></tr><tr class="passedodd"><td rowspan="1">ecom.Register_Test</td><td><a href="#m6">register</a></td><td rowspan="1">1717415470560</td><td rowspan="1">6333</td></tr><tr class="passedeven"><td rowspan="1">food.LaunchKFC_Test</td><td><a href="#m7">kfc</a></td><td rowspan="1">1717415481694</td><td rowspan="1">7631</td></tr><tr class="passedodd"><td rowspan="1">food.LaunchPizzaHut_Test</td><td><a href="#m8">pizzaHut</a></td><td rowspan="1">1717415489326</td><td rowspan="1">8592</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">food.LaunchDominos_Test#dominos</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">food.LaunchDominos_Test#dominos</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:43)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:83)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:130)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at food.LaunchDominos_Test.dominos(LaunchDominos_Test.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">beauty.LaunchLoreal_Test#loreal</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">beauty.LaunchNykaa_Test#nykaa</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">beauty.LaunchSugar_Test#sugar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ecom.DemoWebShop3_Test#books</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ecom.LaunchDemoWebShop_Test#demoWebShop</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">ecom.Register_Test#register</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">food.LaunchKFC_Test#kfc</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">food.LaunchPizzaHut_Test#pizzaHut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
